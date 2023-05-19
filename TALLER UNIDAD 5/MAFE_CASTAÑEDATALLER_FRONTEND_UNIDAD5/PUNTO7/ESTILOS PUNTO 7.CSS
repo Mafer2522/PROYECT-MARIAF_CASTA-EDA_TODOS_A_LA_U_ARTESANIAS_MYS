@@ -1,0 +1,17 @@
+/*punto 7*/
+.p7_nav{
+    background-color: rgb(213, 148, 238);
+}
+.p7_nav ul{
+    display: inline-flex;
+}
+.p7_nav li{
+    padding: 10px;
+    list-style: none;
+}
+.p7_nav li:hover{
+    background-color: blue;
+}
+.p7_nav a{
+    color: white;
+}

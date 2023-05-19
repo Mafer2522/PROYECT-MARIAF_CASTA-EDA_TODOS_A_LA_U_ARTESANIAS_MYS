@@ -1,0 +1,25 @@
+/*Punto 5*/
+.p5_green_ul{
+    text-decoration: underline;
+    color: green;
+}
+.p5_red{
+    color: red;
+    font-weight: bold;
+}
+.p5_uo{
+    text-decoration: underline overline;
+}
+.p5_big{
+    font-size: 35px;
+    font-weight: bold;
+}
+.p5_blue{
+    color: blue;
+    font-weight: bold;
+}
+.p5_red_u{
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
