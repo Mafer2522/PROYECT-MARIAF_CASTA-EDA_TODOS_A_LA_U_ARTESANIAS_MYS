@@ -1,0 +1,88 @@
+body{
+    background-image: radial-gradient(circle at 50% -20.71%, #470558 0,  #47055812.5%, #470558 25%, #4e0f79 37.5%, #470558 50%, #470558 62.5%, #470558 75%, #470558 87.5%, #470558 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+*{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+
+form{
+    width: 600px;
+    border:  2px solid rgba(163, 15, 208, 0.672);
+    padding: 6rem;
+    background-color: rgba(152, 28, 146, 0.725);
+    border: none;
+    border-radius: 20px;
+    color: rgb(18, 1, 26);
+    justify-content: center;
+}
+h1{
+
+    display: block;
+    border: 2px solid rgba(177, 17, 221, 0.567);
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+label{
+    color: aliceblue;
+    font-size: 18px;
+    padding: 11px;
+    font-weight: 350;
+}
+
+input{
+    display: block;
+    border: 2px solid black;
+    width: 95%;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+button{
+    float: right;
+    background-color: #8724acd9;
+    padding: .5rem;
+    color: white;
+    border: none;
+    width: 60%;
+    border-radius: 5px;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+button:hover{
+    background-color: white;
+    color: black;
+}
+
+a{
+    float: left;
+    margin-left: 10px;
+    padding: .5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+
+.error{
+    background-color: rgb(175, 74, 74);
+    color: black;
+    padding: 10px;
+    width: 95%;
+    border-radius: 5px;
+    margin: 20px auto;
+}
